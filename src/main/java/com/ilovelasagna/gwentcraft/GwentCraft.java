@@ -1,5 +1,6 @@
 package com.ilovelasagna.gwentcraft;
 
+import com.ilovelasagna.gwentcraft.block.ModBlocks;
 import com.ilovelasagna.gwentcraft.items.ModCreativeModeTabs;
 import com.ilovelasagna.gwentcraft.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,7 @@ public class GwentCraft {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -51,10 +53,6 @@ public class GwentCraft {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.EREDIN_1);
-            event.accept(ModItems.EREDIN_2);
-        }
 
     }
 

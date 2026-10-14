@@ -1,6 +1,7 @@
 package com.ilovelasagna.gwentcraft.items;
 
 import com.ilovelasagna.gwentcraft.GwentCraft;
+import com.ilovelasagna.gwentcraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EREDIN_1);
                         output.accept(ModItems.EREDIN_2);
+                        output.accept(ModBlocks.JOB_BLOCK);
                     }).build());
 
 

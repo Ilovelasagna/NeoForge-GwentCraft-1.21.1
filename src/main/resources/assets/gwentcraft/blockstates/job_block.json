@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gwentcraft:block/job_block"
+    }
+  }
+}
