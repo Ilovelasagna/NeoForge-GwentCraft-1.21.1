@@ -1,13 +1,7 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.gwentcraft.cards": "Eredin: Bringer of Death",
+  "item.gwentcraft.eredin_1": "Eredin: Bringer of Death",
+  "item.gwentcraft.eredin_2": "Eredin Bréacc Glas: The Treacherous",
 
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "creativetab.gwentcraft.gwent_items": "Gwent Items"
+
 }
