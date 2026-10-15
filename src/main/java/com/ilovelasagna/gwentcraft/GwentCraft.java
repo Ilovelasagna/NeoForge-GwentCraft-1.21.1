@@ -3,6 +3,8 @@ package com.ilovelasagna.gwentcraft;
 import com.ilovelasagna.gwentcraft.block.ModBlocks;
 import com.ilovelasagna.gwentcraft.items.ModCreativeModeTabs;
 import com.ilovelasagna.gwentcraft.items.ModItems;
+import com.ilovelasagna.gwentcraft.sound.ModSounds;
+import com.ilovelasagna.gwentcraft.villagers.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -39,6 +41,10 @@ public class GwentCraft {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

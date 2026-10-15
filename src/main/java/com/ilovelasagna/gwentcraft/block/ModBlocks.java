@@ -2,6 +2,7 @@ package com.ilovelasagna.gwentcraft.block;
 
 import com.ilovelasagna.gwentcraft.GwentCraft;
 import com.ilovelasagna.gwentcraft.items.ModItems;
+import com.ilovelasagna.gwentcraft.sound.ModSounds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -21,8 +22,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> JOB_BLOCK = registerBlock("job_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2.5f).sound(SoundType.WOOD).mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).ignitedByLava()));
-
+                    .strength(2.5f).sound(ModSounds.JOB_BLOCK_SOUNDS).mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).ignitedByLava()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block)  {
