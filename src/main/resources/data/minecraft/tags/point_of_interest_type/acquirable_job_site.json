@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "gwentcraft:lasagna_poi",
+      "required": false
+    }
+  ]
+}

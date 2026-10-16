@@ -4,6 +4,8 @@
 
   "block.gwentcraft.job_block": "Keg",
 
+  "entity.minecraft.villager.gwentcraft.innkeeper": "Innkeeper",
+
   "creativetab.gwentcraft.gwent_items": "GwentCraft"
 
 }

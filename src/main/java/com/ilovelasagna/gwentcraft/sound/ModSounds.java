@@ -14,7 +14,7 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, GwentCraft.MOD_ID);
 
-    public static final Supplier<SoundEvent> KEG_OPEN = registerSoundEvent( "keg_use");
+    public static final Supplier<SoundEvent> KEG_USE = registerSoundEvent( "keg_use");
 
     public static final Supplier<SoundEvent> JOB_BLOCK_BREAK = registerSoundEvent("job_block_break");
     public static final Supplier<SoundEvent> JOB_BLOCK_STEP = registerSoundEvent("job_block_step");
@@ -25,6 +25,7 @@ public class ModSounds {
     public static final DeferredSoundType JOB_BLOCK_SOUNDS = new DeferredSoundType(1f,1f,
             ModSounds.JOB_BLOCK_BREAK,ModSounds.JOB_BLOCK_STEP,ModSounds.JOB_BLOCK_PLACE,
             ModSounds.JOB_BLOCK_HIT,ModSounds.JOB_BLOCK_FALL);
+
 
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {

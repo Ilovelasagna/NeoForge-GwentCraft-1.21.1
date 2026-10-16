@@ -3,6 +3,7 @@ package com.ilovelasagna.gwentcraft.villagers;
 import com.google.common.collect.ImmutableSet;
 import com.ilovelasagna.gwentcraft.GwentCraft;
 import com.ilovelasagna.gwentcraft.block.ModBlocks;
+import com.ilovelasagna.gwentcraft.sound.ModSounds;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
@@ -16,14 +17,13 @@ public class ModVillagers {
     public static final DeferredRegister<VillagerProfession> VILLAGER_PROFESSIONS =
             DeferredRegister.create(BuiltInRegistries.VILLAGER_PROFESSION,GwentCraft.MOD_ID);
 
-
     public static final Holder<PoiType> LASAGNA_POI = POI_TYPES.register("lasagna_poi",
             () -> new PoiType(ImmutableSet.copyOf(ModBlocks.JOB_BLOCK.get().getStateDefinition().getPossibleStates()),1,1));
 
-
-   // public static final Holder<VillagerProfession> INnKEEPER = VILLAGER_PROFESSIONS.register("innkeeper",
-   //         () -> new VillagerProfession("innkeeper", holder -> holder.value() == LASAGNA_POI.value(),
-   //                 poiTypeHolder -> poiTypeHolder.value() == LASAGNA_POI.value(), ImmutableSet.of(), ImmutableSet.of(),))
+   public static final Holder<VillagerProfession> INnKEEPER = VILLAGER_PROFESSIONS.register("innkeeper",
+            () -> new VillagerProfession("innkeeper", holder -> holder.value() == LASAGNA_POI.value(),
+                    poiTypeHolder -> poiTypeHolder.value() == LASAGNA_POI.value(), ImmutableSet.of(), ImmutableSet.of(),
+                    ModSounds.KEG_USE.get()));
 
 
     public static void register(IEventBus eventBus) {

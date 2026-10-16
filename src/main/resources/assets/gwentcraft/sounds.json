@@ -1,0 +1,38 @@
+{
+  "keg_use": {
+    "subtitle": "sounds.gwentcraft.keg_use",
+    "sounds": [
+      "gwentcraft:keg_use"
+    ]
+  },
+  "job_block_break": {
+    "subtitle": "sounds.gwentcraft.job_block_break",
+    "sounds": [
+      "gwentcraft:job_block_break"
+    ]
+  },
+  "job_block_fall": {
+    "subtitle": "sounds.gwentcraft.job_block_fall",
+    "sounds": [
+      "gwentcraft:job_block_fall"
+    ]
+  },
+  "job_block_hit": {
+    "subtitle": "sounds.gwentcraft.job_block_hit",
+    "sounds": [
+      "gwentcraft:job_block_hit"
+    ]
+  },
+  "job_block_place": {
+    "subtitle": "sounds.gwentcraft.job_block_place",
+    "sounds": [
+      "gwentcraft:job_block_place"
+    ]
+  },
+  "job_block_step": {
+    "subtitle": "sounds.gwentcraft.job_block_step",
+    "sounds": [
+      "gwentcraft:job_block_step"
+    ]
+  }
+}
