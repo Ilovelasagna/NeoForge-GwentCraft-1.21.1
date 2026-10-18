@@ -13,6 +13,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> EREDIN_2 = ITEMS.register("eredin_2",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GWENTGUIDE = ITEMS.register("gwentguide",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EREDIN_1);
                         output.accept(ModItems.EREDIN_2);
+                        output.accept(ModItems.GWENTGUIDE);
                         output.accept(ModBlocks.JOB_BLOCK);
                     }).build());
 
