@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "gwentcraft:block/job_block"
+    },
+    "facing=south": {
+      "model": "gwentcraft:block/job_block",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "gwentcraft:block/job_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "gwentcraft:block/job_block",
+      "y": 270
     }
   }
 }

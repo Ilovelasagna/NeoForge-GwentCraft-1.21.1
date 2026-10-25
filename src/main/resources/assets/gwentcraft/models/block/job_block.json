@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "up": "gwentcraft:block/job_block_side",
-    "down": "gwentcraft:block/job_block_side",
-    "east": "gwentcraft:block/job_block_top",
-    "west": "gwentcraft:block/job_block_bottom",
-    "north": "gwentcraft:block/job_block_side",
-    "south": "gwentcraft:block/job_block_side",
+    "up": "gwentcraft:block/job_block_side_top",
+    "down": "gwentcraft:block/job_block_side_top",
+    "east": "gwentcraft:block/job_block_side",
+    "west": "gwentcraft:block/job_block_side",
+    "north": "gwentcraft:block/job_block_top",
+    "south": "gwentcraft:block/job_block_bottom",
     "particle": "gwentcraft:block/job_block_side"
   }
 }

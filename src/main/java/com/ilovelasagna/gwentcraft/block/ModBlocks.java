@@ -6,7 +6,6 @@ import com.ilovelasagna.gwentcraft.sound.ModSounds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -20,10 +19,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(GwentCraft.MOD_ID);
 
-    public static final DeferredBlock<Block> JOB_BLOCK = registerBlock("job_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<JobBlock> JOB_BLOCK = registerBlock("job_block",
+            () -> new JobBlock(BlockBehaviour.Properties.of()
                     .strength(2.5f).sound(ModSounds.JOB_BLOCK_SOUNDS).mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).ignitedByLava()));
-
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block)  {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
