@@ -7,6 +7,9 @@
 
   "entity.minecraft.villager.gwentcraft.innkeeper": "Innkeeper",
 
-  "creativetab.gwentcraft.gwent_items": "GwentCraft"
+  "creativetab.gwentcraft.gwent_items": "GwentCraft",
+
+  "tooltip.gwentcraft.keg_fluid": "Stored: %s — %d / %d mB",
+  "tooltip.gwentcraft.keg_empty": "Stored: Empty"
 
 }
