@@ -12,21 +12,29 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 public class ModCreativeModeTabs {
+
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GwentCraft.MOD_ID);
+            DeferredRegister.create(
+                    Registries.CREATIVE_MODE_TAB,
+                    GwentCraft.MOD_ID
+            );
 
-    public static final Supplier<CreativeModeTab> GWENT_ITEMS_TAB = CREATIVE_MODE_TAB.register( "gwent_item_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.EREDIN_1.get()))
-                    .title(Component.translatable("creativetab.gwentcraft.gwent_items"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.EREDIN_1);
-                        output.accept(ModItems.EREDIN_2);
-                        output.accept(ModItems.GWENTGUIDE);
-                        output.accept(ModBlocks.JOB_BLOCK);
-                    }).build());
+    public static final Supplier<CreativeModeTab> GWENT_ITEMS_TAB =
+            CREATIVE_MODE_TAB.register("gwent_item_tab",
+                    () -> CreativeModeTab.builder()
+                            .icon(() -> new ItemStack(ModItems.EREDIN_1.get()))
+                            .title(Component.translatable(
+                                    "creativetab.gwentcraft.gwent_items"))
+                            .displayItems((itemDisplayParameters, output) -> {
+                                output.accept(ModItems.EREDIN_1.get());
+                                output.accept(ModItems.EREDIN_2.get());
+                                output.accept(ModItems.GWENTGUIDE.get());
+                                output.accept(ModBlocks.JOB_BLOCK.get());
+                            })
+                            .build()
+            );
 
-
-    public static void register(IEventBus eventBus){
+    public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }
 }

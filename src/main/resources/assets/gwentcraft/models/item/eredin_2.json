@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gwentcraft:item/eredin_2"
+    "layer0": "gwentcraft:item/monster_leader"
   }
 }

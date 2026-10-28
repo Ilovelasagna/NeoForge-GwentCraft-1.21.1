@@ -16,15 +16,43 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = GwentCraft.MOD_ID)
+
 public class DataGenerators {
+
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
+
         DataGenerator generator = event.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
-        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
-        CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
+        ExistingFileHelper existingFileHelper =
+                event.getExistingFileHelper();
 
-        generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(),
-                List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
+        CompletableFuture<HolderLookup.Provider> lookupProvider =
+                event.getLookupProvider();
+
+        // Generate item model JSON files.
+        generator.addProvider(
+                event.includeClient(),
+                new ModItemModelProvider(
+                        packOutput,
+                        existingFileHelper
+                )
+        );
+
+        // Generate block loot tables.
+        generator.addProvider(
+                event.includeServer(),
+                new LootTableProvider(
+                        packOutput,
+                        Collections.emptySet(),
+                        List.of(
+                                new LootTableProvider.SubProviderEntry(
+                                        ModBlockLootTableProvider::new,
+                                        LootContextParamSets.BLOCK
+                                )
+                        ),
+                        lookupProvider
+                )
+        );
     }
 }

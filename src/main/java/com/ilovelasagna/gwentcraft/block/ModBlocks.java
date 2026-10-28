@@ -1,16 +1,12 @@
 package com.ilovelasagna.gwentcraft.block;
 
 import com.ilovelasagna.gwentcraft.GwentCraft;
-import com.ilovelasagna.gwentcraft.block.entity.JobBlockEntity;
 import com.ilovelasagna.gwentcraft.items.ModItems;
 import com.ilovelasagna.gwentcraft.sound.ModSounds;
-import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
