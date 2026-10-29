@@ -1,6 +1,40 @@
 {
   "item.gwentcraft.eredin_1": "Eredin: Bringer of Death",
   "item.gwentcraft.eredin_2": "Eredin Bréacc Glas: The Treacherous",
+  "item.gwentcraft.eredin_3": "Eredin: Commander of the Red Riders",
+  "item.gwentcraft.eredin_4": "Eredin: Destroyer of Worlds",
+  "item.gwentcraft.eredin_5": "Eredin: King of the Wild Hunt",
+
+  "item.gwentcraft.monster_cc_werewolf": "Werewolf",
+  "item.gwentcraft.monster_cc_plaguemaiden": "Plague Maiden",
+  "item.gwentcraft.monster_cc_nekker": "Nekker",
+  "item.gwentcraft.monster_cc_imlerith": "Imlerith",
+  "item.gwentcraft.monster_cc_griffin": "Griffin",
+  "item.gwentcraft.monster_cc_ghoul": "Ghoul",
+
+  "item.gwentcraft.monster_cc_frightener": "Frightener",
+  "item.gwentcraft.monster_cc_forktail": "Forktail",
+  "item.gwentcraft.monster_cc_foglet":"Foglet",
+  "item.gwentcraft.monster_cc_fiend": "Fiend",
+  "item.gwentcraft.monster_cc_draug": "Draug",
+  "item.gwentcraft.monster_cc_botchling": "Botchling",
+  "item.gwentcraft.monster_cc_arachas": "Arachas",
+
+  "item.gwentcraft.monster_cc_crone_1":"Crone: Whispess",
+  "item.gwentcraft.monster_cc_crone_2":"Crone: Weavess",
+  "item.gwentcraft.monster_cc_crone_3":"Crone: Brewess",
+
+  "item.gwentcraft.monster_cc_vampire_1": "Vampire: Katakan",
+  "item.gwentcraft.monster_cc_vampire_2": "Vampire: Garkain",
+  "item.gwentcraft.monster_cc_vampire_3": "Vampire: Fleder",
+  "item.gwentcraft.monster_cc_vampire_4": "Vampire: Ekimmara",
+  "item.gwentcraft.monster_cc_vampire_5": "Vampire: Bruxa",
+
+  "item.gwentcraft.monster_ranged_kayran": "Kayran",
+  "item.gwentcraft.monster_ranged_harpy": "Harpy",
+  "item.gwentcraft.monster_ranged_celaenoharpy": "Celaeno Harpy",
+
+
   "item.gwentcraft.gwentguide": "A Miraculous Guide to Gwent",
 
   "block.gwentcraft.job_block": "Keg",

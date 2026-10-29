@@ -17,14 +17,104 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
-        // Monster Leader Cards: shared faction texture
-        withExistingParent("eredin_1", "minecraft:item/generated")
-                .texture("layer0", modLoc("item/monster_leader"));
+        // Monster faction leader cards
+        String[] monsterLeaderCards = {
+                "eredin_1",
+                "eredin_2",
+                "eredin_3",
+                "eredin_4",
+                "eredin_5"
+        };
 
-        withExistingParent("eredin_2", "minecraft:item/generated")
-                .texture("layer0", modLoc("item/monster_leader"));
+        for (String cardId : monsterLeaderCards) {
+            generateFactionCard(cardId, "monster_leader");
+        }
+
+        // Monster Close Combat cards
+        String[] monsterCloseCombatCards = {
+
+                "monster_cc_werewolf",
+                "monster_cc_plaguemaiden",
+                "monster_cc_nekker",
+                "monster_cc_imlerith",
+                "monster_cc_griffin",
+                "monster_cc_ghoul",
+                "monster_cc_frightener",
+                "monster_cc_forktail",
+                "monster_cc_foglet",
+                "monster_cc_fiend",
+                "monster_cc_draug",
+                "monster_cc_botchling",
+                "monster_cc_arachas",
+
+                "monster_cc_crone_1",
+                "monster_cc_crone_2",
+                "monster_cc_crone_3",
+
+                "monster_cc_vampire_1",
+                "monster_cc_vampire_2",
+                "monster_cc_vampire_3",
+                "monster_cc_vampire_4",
+                "monster_cc_vampire_5"
+        };
+
+        for (String cardId : monsterCloseCombatCards) {
+            generateFactionCard(cardId, "monster_ranged");
+        }
+
+        // Monster Agile cards
+        String[] monsterAgileCards = {
+                "monster_ranged_kayran",
+                "monster_ranged_harpy",
+                "monster_ranged_celaenoharpy",
+        };
+
+        for (String cardId : monsterAgileCards) {
+            generateFactionCard(cardId, "monster_ranged");
+        }
+
+        // Monster Ranged cards
+        String[] monsterRangedCards = {
+
+
+        };
+
+        for (String cardId : monsterRangedCards) {
+            generateFactionCard(cardId, "monster_ranged");
+        }
+
+        // Monster Seige cards
+        String[] monsterSeigeCards = {
+
+
+        };
+
+        for (String cardId : monsterSeigeCards) {
+            generateFactionCard(cardId, "monster_siege");
+        }
+
+        // Northern Realms faction leader cards
+        String[] northernRealmsLeaderCards = {
+
+        };
+
+        for (String cardId : northernRealmsLeaderCards) {
+            generateFactionCard(
+                    cardId,
+                    "northern_realms_leader"
+            );
+        }
 
         // Gwent Guide Book
         basicItem(ModItems.GWENTGUIDE.get());
+    }
+
+    // Generates an item model using a shared faction texture.
+    private void generateFactionCard(
+            String cardId,
+            String textureName) {
+
+        withExistingParent(cardId, "minecraft:item/generated")
+                .texture("layer0", modLoc("item/" + textureName));
     }
 }

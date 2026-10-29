@@ -28,6 +28,39 @@ public class ModCreativeModeTabs {
                             .displayItems((itemDisplayParameters, output) -> {
                                 output.accept(ModItems.EREDIN_1.get());
                                 output.accept(ModItems.EREDIN_2.get());
+                                output.accept(ModItems.EREDIN_3.get());
+                                output.accept(ModItems.EREDIN_4.get());
+                                output.accept(ModItems.EREDIN_5.get());
+
+                                output.accept(ModItems.MONSTER_CC_WEREWOLF.get());
+                                output.accept(ModItems.MONSTER_CC_PLAGUEMAIDEN.get());
+                                output.accept(ModItems.MONSTER_CC_NEKKER.get());
+                                output.accept(ModItems.MONSTER_CC_IMlERITH.get());
+                                output.accept(ModItems.MONSTER_CC_GRIFFIN.get());
+                                output.accept(ModItems.MONSTER_CC_ghoul.get());
+                                output.accept(ModItems.MONSTER_CC_FRIGHTENER.get());
+                                output.accept(ModItems.MONSTER_CC_FORKTAIL.get());
+                                output.accept(ModItems.MONSTER_CC_FOGLET.get());
+                                output.accept(ModItems.MONSTER_CC_FIEND.get());
+                                output.accept(ModItems.MONSTER_CC_DRAUG.get());
+                                output.accept(ModItems.MONSTER_CC_BOTCHLING.get());
+                                output.accept(ModItems.MONSTER_CC_ARACHAS.get());
+
+                                output.accept(ModItems.MONSTER_CC_CRONE_1.get());
+                                output.accept(ModItems.MONSTER_CC_CRONE_2.get());
+                                output.accept(ModItems.MONSTER_CC_CRONE_3.get());
+
+                                output.accept(ModItems.MONSTER_CC_VAMPIRE_1.get());
+                                output.accept(ModItems.MONSTER_CC_VAMPIRE_2.get());
+                                output.accept(ModItems.MONSTER_CC_VAMPIRE_3.get());
+                                output.accept(ModItems.MONSTER_CC_VAMPIRE_4.get());
+                                output.accept(ModItems.MONSTER_CC_VAMPIRE_5.get());
+
+                                output.accept(ModItems.MONSTER_RANGED_KAYRAN.get());
+                                output.accept(ModItems.MONSTER_RANGED_HARPY.get());
+                                output.accept(ModItems.MONSTER_RANGED_CELAENOHARPY.get());
+
+
                                 output.accept(ModItems.GWENTGUIDE.get());
                                 output.accept(ModBlocks.JOB_BLOCK.get());
                             })
