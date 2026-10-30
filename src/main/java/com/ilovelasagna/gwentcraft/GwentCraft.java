@@ -1,7 +1,9 @@
+
 package com.ilovelasagna.gwentcraft;
 
 import com.ilovelasagna.gwentcraft.block.ModBlocks;
 import com.ilovelasagna.gwentcraft.block.entity.ModBlockEntities;
+import com.ilovelasagna.gwentcraft.events.ModEvents;
 import com.ilovelasagna.gwentcraft.items.ModCreativeModeTabs;
 import com.ilovelasagna.gwentcraft.items.ModItems;
 import com.ilovelasagna.gwentcraft.sound.ModSounds;
@@ -36,11 +38,13 @@ public class GwentCraft {
 
         // Register the Keg's fluid-handler capability.
         modEventBus.addListener(
-                ModCapabilities::registerCapabilities
-        );
+                ModCapabilities::registerCapabilities);
 
         // Register events handled on the main NeoForge event bus.
         NeoForge.EVENT_BUS.register(this);
+
+        // Register Innkeeper custom trades.
+        NeoForge.EVENT_BUS.addListener(ModEvents::addCustomTrades);
 
         // Register creative tabs, items, blocks, and block entities.
         ModCreativeModeTabs.register(modEventBus);
@@ -58,8 +62,7 @@ public class GwentCraft {
         // Register the mod's common configuration.
         modContainer.registerConfig(
                 ModConfig.Type.COMMON,
-                Config.SPEC
-        );
+                Config.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

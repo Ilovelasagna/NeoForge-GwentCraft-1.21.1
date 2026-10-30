@@ -32,7 +32,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // Monster Close Combat cards
         String[] monsterCloseCombatCards = {
-
                 "monster_cc_werewolf",
                 "monster_cc_plaguemaiden",
                 "monster_cc_nekker",
@@ -59,14 +58,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         };
 
         for (String cardId : monsterCloseCombatCards) {
-            generateFactionCard(cardId, "monster_ranged");
+            generateFactionCard(cardId, "monster_cc");
         }
 
         // Monster Agile cards
         String[] monsterAgileCards = {
                 "monster_ranged_kayran",
                 "monster_ranged_harpy",
-                "monster_ranged_celaenoharpy",
+                "monster_ranged_celaenoharpy"
         };
 
         for (String cardId : monsterAgileCards) {
@@ -75,27 +74,34 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // Monster Ranged cards
         String[] monsterRangedCards = {
-
-
+                "monster_ranged_wyvern",
+                "monster_ranged_toad",
+                "monster_ranged_leshen",
+                "monster_ranged_gravehag",
+                "monster_ranged_gargoyle",
+                "monster_ranged_endrega",
+                "monster_ranged_cockatrice"
         };
 
         for (String cardId : monsterRangedCards) {
             generateFactionCard(cardId, "monster_ranged");
         }
 
-        // Monster Seige cards
-        String[] monsterSeigeCards = {
-
-
+        // Monster Siege cards
+        String[] monsterSiegeCards = {
+                "monster_siege_icegiant",
+                "monster_siege_fireelemental",
+                "monster_siege_earthelemental",
+                "monster_siege_arachasbehemoth"
         };
 
-        for (String cardId : monsterSeigeCards) {
+        for (String cardId : monsterSiegeCards) {
             generateFactionCard(cardId, "monster_siege");
         }
 
         // Northern Realms faction leader cards
         String[] northernRealmsLeaderCards = {
-
+                // Add registered Northern Realms card IDs here.
         };
 
         for (String cardId : northernRealmsLeaderCards) {

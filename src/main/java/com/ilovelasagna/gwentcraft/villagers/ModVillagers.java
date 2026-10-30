@@ -20,7 +20,7 @@ public class ModVillagers {
     public static final Holder<PoiType> LASAGNA_POI = POI_TYPES.register("lasagna_poi",
             () -> new PoiType(ImmutableSet.copyOf(ModBlocks.JOB_BLOCK.get().getStateDefinition().getPossibleStates()),1,1));
 
-   public static final Holder<VillagerProfession> INnKEEPER = VILLAGER_PROFESSIONS.register("innkeeper",
+   public static final Holder<VillagerProfession> INNKEEPER = VILLAGER_PROFESSIONS.register("innkeeper",
             () -> new VillagerProfession("innkeeper", holder -> holder.value() == LASAGNA_POI.value(),
                     poiTypeHolder -> poiTypeHolder.value() == LASAGNA_POI.value(), ImmutableSet.of(), ImmutableSet.of(),
                     ModSounds.KEG_USE.get()));
