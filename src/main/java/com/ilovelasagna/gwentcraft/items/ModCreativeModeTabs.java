@@ -82,6 +82,40 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.MONSTER_RANGED_HARPY.get());
                                 output.accept(ModItems.MONSTER_RANGED_CELAENOHARPY.get());
 
+                                //Neutral Hero Cards
+                                output.accept(ModItems.NEUTRAL_GERALT.get());
+                                output.accept(ModItems.NEUTRAL_CIRI.get());
+                                output.accept(ModItems.NEUTRAL_YENN.get());
+
+                                //Neutral CC Cards
+                                output.accept(ModItems.NEUTRAL_MYSTERIOUS_ELF.get());
+                                output.accept(ModItems.NEUTRAL_TRISS.get());
+                                output.accept(ModItems.NEUTRAL_BOVINE_DEFENSE_FORCE.get());
+                                output.accept(ModItems.NEUTRAL_DANDELION.get());
+                                output.accept(ModItems.NEUTRAL_EMIEL_REGIS.get());
+                                output.accept(ModItems.NEUTRAL_ROACH.get());
+                                output.accept(ModItems.NEUTRAL_VESEMIR.get());
+                                output.accept(ModItems.NEUTRAL_VILLENTRETENMERTH.get());
+                                output.accept(ModItems.NEUTRAL_ZOLTAN.get());
+
+                                output.accept(ModItems.NEUTRAL_COW.get());
+                                output.accept(ModItems.NEUTRAL_GAUNTER_ODIMM_DARKNESS.get());
+
+                                output.accept(ModItems.NEUTRAL_GAUNTER_ODIMM.get());
+
+                                output.accept(ModItems.NEUTRAL_OLGIERD.get());
+
+                                output.accept(ModItems.NEUTRAL_HORN.get());
+                                output.accept(ModItems.NEUTRAL_DECOY.get());
+                                output.accept(ModItems.NEUTRAL_SCORCH.get());
+
+                                output.accept(ModItems.NEUTRAL_BITING_FROST.get());
+                                output.accept(ModItems.NEUTRAL_CLEAR_WEATHER.get());
+                                output.accept(ModItems.NEUTRAL_IMPENETRABLE_FOG.get());
+                                output.accept(ModItems.NEUTRAL_SKELLIGE_STORM.get());
+                                output.accept(ModItems.NEUTRAL_TORRENTIAL_RAIN.get());
+
+
                                 // Gwent Guide Book
                                 output.accept(ModItems.GWENTGUIDE.get());
 

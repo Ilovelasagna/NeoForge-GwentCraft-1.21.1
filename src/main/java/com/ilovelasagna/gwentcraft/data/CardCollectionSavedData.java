@@ -8,6 +8,7 @@ import net.minecraft.world.level.saveddata.SavedData;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
+import java.util.Collections;
 
 public class CardCollectionSavedData extends SavedData {
 
@@ -113,6 +114,15 @@ public class CardCollectionSavedData extends SavedData {
         return collections
                 .getOrDefault(playerId, Map.of())
                 .getOrDefault(cardId, 0);
+    }
+
+    // Get a player's complete card collection.
+    public Map<String, Integer> getCollection(UUID playerId) {
+        return Collections.unmodifiableMap(
+                new HashMap<>(
+                        collections.getOrDefault(playerId, Map.of())
+                )
+        );
     }
 
     // Register a card, respecting its duplicate rule.

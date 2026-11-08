@@ -3,11 +3,14 @@ package com.ilovelasagna.gwentcraft;
 
 import com.ilovelasagna.gwentcraft.block.ModBlocks;
 import com.ilovelasagna.gwentcraft.block.entity.ModBlockEntities;
+import com.ilovelasagna.gwentcraft.entity.ModEntities;
 import com.ilovelasagna.gwentcraft.events.ModEvents;
 import com.ilovelasagna.gwentcraft.items.ModCreativeModeTabs;
 import com.ilovelasagna.gwentcraft.items.ModItems;
 import com.ilovelasagna.gwentcraft.sound.ModSounds;
 import com.ilovelasagna.gwentcraft.villagers.ModVillagers;
+import com.ilovelasagna.gwentcraft.registry.ModMenus;
+import com.ilovelasagna.gwentcraft.network.GwentCraftNetwork;
 
 import com.mojang.logging.LogUtils;
 
@@ -52,6 +55,18 @@ public class GwentCraft {
         ModBlocks.register(modEventBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
 
+        // Register Gwent menus.
+        ModMenus.register(modEventBus);
+
+        // Register Gwent networking.
+        modEventBus.addListener(
+                GwentCraftNetwork::registerPayloads
+        );
+
+        // Register Gwent Player entities.
+        ModEntities.register(modEventBus);
+        modEventBus.addListener(ModEntities::registerAttributes);
+
         // Register sounds and villagers.
         ModSounds.register(modEventBus);
         ModVillagers.register(modEventBus);
@@ -64,6 +79,7 @@ public class GwentCraft {
                 ModConfig.Type.COMMON,
                 Config.SPEC);
     }
+
 
     private void commonSetup(FMLCommonSetupEvent event) {
         // Common setup logic can be added here.

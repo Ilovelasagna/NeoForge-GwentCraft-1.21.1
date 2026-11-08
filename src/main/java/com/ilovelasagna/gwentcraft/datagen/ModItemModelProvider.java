@@ -23,9 +23,8 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "eredin_2",
                 "eredin_3",
                 "eredin_4",
-                "eredin_5"
+                "eredin_5",
         };
-
         for (String cardId : monsterLeaderCards) {
             generateFactionCard(cardId, "monster_leader");
         }
@@ -56,7 +55,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "monster_cc_vampire_4",
                 "monster_cc_vampire_5"
         };
-
         for (String cardId : monsterCloseCombatCards) {
             generateFactionCard(cardId, "monster_cc");
         }
@@ -67,7 +65,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "monster_ranged_harpy",
                 "monster_ranged_celaenoharpy"
         };
-
         for (String cardId : monsterAgileCards) {
             generateFactionCard(cardId, "monster_ranged");
         }
@@ -82,7 +79,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "monster_ranged_endrega",
                 "monster_ranged_cockatrice"
         };
-
         for (String cardId : monsterRangedCards) {
             generateFactionCard(cardId, "monster_ranged");
         }
@@ -94,22 +90,97 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "monster_siege_earthelemental",
                 "monster_siege_arachasbehemoth"
         };
-
         for (String cardId : monsterSiegeCards) {
             generateFactionCard(cardId, "monster_siege");
         }
 
-        // Northern Realms faction leader cards
-        String[] northernRealmsLeaderCards = {
-                // Add registered Northern Realms card IDs here.
+       //Neutral Cards
+        String[] neutralCards = {
+                "neutral_geralt",
+                "neutral_yenn",
+                "neutral_ciri"
+        };
+        for (String cardId : neutralCards) {
+            generateFactionCard(cardId, "neutral_hero");
+        }
+
+        String[] neutralCloseCombatCards = {
+                "neutral_bovine_defense_force",
+                "neutral_emiel_regis",
+                "neutral_roach",
+                "neutral_vesemir",
+                "neutral_villentretenmerth",
+                "neutral_zoltan",
+                "neutral_triss",
+                "neutral_mysterious_elf"
+        };
+        for (String cardId : neutralCloseCombatCards) {
+            generateFactionCard(cardId, "neutral_cc");
+        }
+
+        String[] neutralHornCards = {
+                "neutral_dandelion",
+                "neutral_horn"
+        };
+        for (String cardId : neutralHornCards) {
+            generateFactionCard(cardId, "neutral_horn");
+        }
+
+        String[] neutralRangedCards = {
+                "neutral_cow",
+                "neutral_gaunter_odimm_darkness"
+        };
+        for (String cardId : neutralRangedCards) {
+            generateFactionCard(cardId, "neutral_ranged");
+        }
+
+        String[] neutralSiegeCards = {
+                "neutral_gaunter_odimm"
+        };
+        for (String cardId : neutralSiegeCards) {
+            generateFactionCard(cardId, "neutral_siege");
+        }
+
+        String[] neutralAgileCards = {
+                "neutral_olgierd"
         };
 
-        for (String cardId : northernRealmsLeaderCards) {
-            generateFactionCard(
-                    cardId,
-                    "northern_realms_leader"
-            );
+        for (String cardId : neutralAgileCards) {
+            generateFactionCard(cardId, "neutral_agile");
         }
+
+        String[] neutralWeatherCards = {
+                "neutral_biting_frost",
+                "neutral_clear_weather",
+                "neutral_impenetrable_fog",
+                "neutral_skellige_storm",
+                "neutral_torrential_rain"
+        };
+
+        for (String cardId : neutralWeatherCards) {
+            generateFactionCard(cardId, "neutral_weather");
+        }
+
+        String[] neutralScorch = {
+                "neutral_scorch"
+        };
+        for (String cardId : neutralScorch) {
+            generateFactionCard(cardId, "neutral_scorch");
+        }
+
+        String[] neutralDecoy = {
+                "neutral_decoy"
+        };
+        for (String cardId : neutralDecoy) {
+            generateFactionCard(cardId, "neutral_decoy");
+        }
+
+
+
+
+
+
+
 
         // Gwent Guide Book
         basicItem(ModItems.GWENTGUIDE.get());

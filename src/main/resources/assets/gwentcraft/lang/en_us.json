@@ -45,6 +45,33 @@
   "item.gwentcraft.monster_siege_earthelemental": "Earth Elemental",
   "item.gwentcraft.monster_siege_arachasbehemoth": "Arachas Behemoth",
 
+  "item.gwentcraft.neutral_geralt": "Geralt of Rivia",
+  "item.gwentcraft.neutral_yenn": "Yennefer of Vengerberg",
+  "item.gwentcraft.neutral_ciri": "Cirilla Fiona Elen Riannon",
+
+  "item.gwentcraft.neutral_mysterious_elf": "Mysterious Elf",
+  "item.gwentcraft.neutral_triss": "Triss Merigold",
+  "item.gwentcraft.neutral_dandelion": "Dandelion",
+  "item.gwentcraft.neutral_zoltan": "Zoltan Chivay",
+  "item.gwentcraft.neutral_emiel_regis": "Emiel Regis",
+  "item.gwentcraft.neutral_villentretenmerth": "Villentretenmerth",
+  "item.gwentcraft.neutral_vesemir": "Vesemir",
+  "item.gwentcraft.neutral_olgierd": "Olgierd von Everec",
+  "item.gwentcraft.neutral_gaunter_odimm": "Gaunter O'Dimm",
+  "item.gwentcraft.neutral_gaunter_odimm_darkness": "Gaunter O'Dimm: Darkness",
+  "item.gwentcraft.neutral_cow": "Cow",
+  "item.gwentcraft.neutral_bovine_defense_force": "Bovine Defense Force",
+  "item.gwentcraft.neutral_roach": "Roach",
+
+  "item.gwentcraft.neutral_horn": "Commander's Horn",
+  "item.gwentcraft.neutral_decoy": "Decoy",
+  "item.gwentcraft.neutral_scorch": "Scorch",
+
+  "item.gwentcraft.neutral_biting_frost": "Biting Frost",
+  "item.gwentcraft.neutral_clear_weather": "Clear Weather",
+  "item.gwentcraft.neutral_impenetrable_fog": "Impenetrable Fog",
+  "item.gwentcraft.neutral_skellige_storm": "Skellige Storm",
+  "item.gwentcraft.neutral_torrential_rain": "Torrential Rain",
 
 
   "item.gwentcraft.gwentguide": "A Miraculous Guide to Gwent",
