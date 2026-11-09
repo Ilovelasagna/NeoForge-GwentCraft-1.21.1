@@ -94,7 +94,7 @@ public class ModItemModelProvider extends ItemModelProvider {
             generateFactionCard(cardId, "monster_siege");
         }
 
-       //Neutral Cards
+        // Neutral Cards
         String[] neutralCards = {
                 "neutral_geralt",
                 "neutral_yenn",
@@ -144,7 +144,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         String[] neutralAgileCards = {
                 "neutral_olgierd"
         };
-
         for (String cardId : neutralAgileCards) {
             generateFactionCard(cardId, "neutral_agile");
         }
@@ -156,7 +155,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "neutral_skellige_storm",
                 "neutral_torrential_rain"
         };
-
         for (String cardId : neutralWeatherCards) {
             generateFactionCard(cardId, "neutral_weather");
         }
@@ -175,12 +173,126 @@ public class ModItemModelProvider extends ItemModelProvider {
             generateFactionCard(cardId, "neutral_decoy");
         }
 
+        // Northern Realms Leader
+        String[] northernLeaderCards = {
+                "foltest_1",
+                "foltest_2",
+                "foltest_3",
+                "foltest_4",
+                "foltest_5",
+                "esterad",
+                "john_natalis",
+                "philippa_eilhart",
+                "vernon_roche"
+        };
+        for (String cardId : northernLeaderCards) {
+            generateFactionCard(cardId, "northern_leader");
+        }
 
+        // Northern Realms Close Combat cards
+        String[] northernCloseCombatCards = {
+                "northern_cc_blue_stripes_commando",
+                "northern_cc_poor_fucking_infantry",
+                "northern_cc_prince_stennis",
+                "northern_cc_redanian_foot_soldier",
+                "northern_cc_siegfried_of_denesle",
+                "northern_cc_sigismund_dijkstra",
+                "northern_cc_ves",
+                "northern_cc_yarpen_zigrin"
+        };
+        for (String cardId : northernCloseCombatCards) {
+            generateFactionCard(cardId, "northern_cc");
+        }
 
+        // Northern Realms Ranged cards
+        String[] northernRangedCards = {
+                "northern_ranged_crinfrid_reavers_dragon_hunter",
+                "northern_ranged_dethmold",
+                "northern_ranged_keira_metz",
+                "northern_ranged_sabrina_glevissig",
+                "northern_ranged_sheldon_skaggs",
+                "northern_ranged_sile_de_tansarville"
+        };
+        for (String cardId : northernRangedCards) {
+            generateFactionCard(cardId, "northern_ranged");
+        }
 
+        // Northern Realms Siege cards
+        String[] northernSiegeCards = {
+                "northern_siege_ballista",
+                "northern_siege_catapult",
+                "northern_siege_dun_banner_medic",
+                "northern_siege_kaedweni_siege_expert",
+                "northern_siege_siege_tower",
+                "northern_siege_thaler",
+                "northern_siege_trebuchet"
+        };
+        for (String cardId : northernSiegeCards) {
+            generateFactionCard(cardId, "northern_siege");
+        }
 
+        // Scoia'tael Leader cards
+        String[] scoiataelLeaderCards = {
+                "francesca_1",
+                "francesca_2",
+                "francesca_3",
+                "francesca_4",
+                "francesca_5"
+        };
+        for (String cardId : scoiataelLeaderCards) {
+            generateFactionCard(cardId, "scoiatael_leader");
+        }
 
+        // Scoia'tael Close Combat cards
+        String[] scoiataelCloseCombatCards = {
+                "scoiatael_cc_dwarven_skirmisher",
+                "scoiatael_cc_elven_skirmisher",
+                "scoiatael_cc_havekar_smuggler",
+                "scoiatael_cc_mahakaman_defender",
+                "scoiatael_cc_toruviel"
+        };
+        for (String cardId : scoiataelCloseCombatCards) {
+            generateFactionCard(cardId, "scoiatael_cc");
+        }
 
+        // Scoia'tael Ranged cards
+        String[] scoiataelRangedCards = {
+                "scoiatael_ranged_dennis_cranmer",
+                "scoiatael_ranged_dol_blathanna_archer",
+                "scoiatael_ranged_eithne",
+                "scoiatael_ranged_havekar_healer",
+                "scoiatael_ranged_ida_emean",
+                "scoiatael_ranged_iorveth",
+                "scoiatael_ranged_isengrim",
+                "scoiatael_ranged_milva",
+                "scoiatael_ranged_riordain",
+                "scoiatael_ranged_saesenthessis",
+                "scoiatael_ranged_schirru"
+        };
+        for (String cardId : scoiataelRangedCards) {
+            generateFactionCard(cardId, "scoiatael_ranged");
+        }
+
+        // Scoia'tael Siege cards
+        String[] scoiataelSiegeCards = {
+                "scoiatael_siege_vrihedd_brigade_recruit"
+        };
+        for (String cardId : scoiataelSiegeCards) {
+            generateFactionCard(cardId, "scoiatael_siege");
+        }
+
+        // Scoia'tael Agile cards
+        String[] scoiataelAgileCards = {
+                "scoiatael_agile_barclay_els",
+                "scoiatael_agile_ciaran",
+                "scoiatael_agile_dol_blathanna_scout",
+                "scoiatael_agile_filavandrel",
+                "scoiatael_agile_vrihedd_brigade_veteran",
+                "scoiatael_agile_yaevinn"
+        };
+        for (String cardId : scoiataelAgileCards) {
+            generateFactionCard(cardId, "scoiatael_agile");
+        }
 
         // Gwent Guide Book
         basicItem(ModItems.GWENTGUIDE.get());

@@ -115,6 +115,86 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.NEUTRAL_SKELLIGE_STORM.get());
                                 output.accept(ModItems.NEUTRAL_TORRENTIAL_RAIN.get());
 
+                                // Northern Realms Leader Cards
+                                output.accept(ModItems.FOLTEST_1.get());
+                                output.accept(ModItems.FOLTEST_2.get());
+                                output.accept(ModItems.FOLTEST_3.get());
+                                output.accept(ModItems.FOLTEST_4.get());
+                                output.accept(ModItems.FOLTEST_5.get());
+                                output.accept(ModItems.ESTERAD.get());
+                                output.accept(ModItems.JOHN_NATALIS.get());
+                                output.accept(ModItems.PHILIPPA_EILHART.get());
+                                output.accept(ModItems.VERNON_ROCHE.get());
+
+
+                                // Northern Realms Close Combat cards
+                                output.accept(ModItems.NORTHERN_CC_BLUE_STRIPES_COMMANDO.get());
+                                output.accept(ModItems.NORTHERN_CC_POOR_FUCKING_INFANTRY.get());
+                                output.accept(ModItems.NORTHERN_CC_PRINCE_STENNIS.get());
+                                output.accept(ModItems.NORTHERN_CC_REDANIAN_FOOT_SOLDIER.get());
+                                output.accept(ModItems.NORTHERN_CC_SIEGFRIED_OF_DENESLE.get());
+                                output.accept(ModItems.NORTHERN_CC_SIGISMUND_DIJKSTRA.get());
+                                output.accept(ModItems.NORTHERN_CC_VES.get());
+                                output.accept(ModItems.NORTHERN_CC_YARPEN_ZIGRIN.get());
+
+
+                                // Northern Realms Ranged cards
+                                output.accept(ModItems.NORTHERN_RANGED_CRINFRID_REAVERS_DRAGON_HUNTER.get());
+                                output.accept(ModItems.NORTHERN_RANGED_DETHMOLD.get());
+                                output.accept(ModItems.NORTHERN_RANGED_KEIRA_METZ.get());
+                                output.accept(ModItems.NORTHERN_RANGED_SABRINA_GLEVISSIG.get());
+                                output.accept(ModItems.NORTHERN_RANGED_SHELDON_SKAGGS.get());
+                                output.accept(ModItems.NORTHERN_RANGED_SILE_DE_TANSARVILLE.get());
+
+
+                                // Northern Realms Siege cards
+                                output.accept(ModItems.NORTHERN_SIEGE_BALLISTA.get());
+                                output.accept(ModItems.NORTHERN_SIEGE_CATAPULT.get());
+                                output.accept(ModItems.NORTHERN_SIEGE_DUN_BANNER_MEDIC.get());
+                                output.accept(ModItems.NORTHERN_SIEGE_KAEDWENI_SIEGE_EXPERT.get());
+                                output.accept(ModItems.NORTHERN_SIEGE_SIEGE_TOWER.get());
+                                output.accept(ModItems.NORTHERN_SIEGE_THALER.get());
+                                output.accept(ModItems.NORTHERN_SIEGE_TREBUCHET.get());
+
+                                // Scoia'tael Leader cards
+                                output.accept(ModItems.FRANCESCA_1.get());
+                                output.accept(ModItems.FRANCESCA_2.get());
+                                output.accept(ModItems.FRANCESCA_3.get());
+                                output.accept(ModItems.FRANCESCA_4.get());
+                                output.accept(ModItems.FRANCESCA_5.get());
+
+                                // Scoia'tael Close Combat cards
+                                output.accept(ModItems.SCOIATAEL_CC_DWARVEN_SKIRMISHER.get());
+                                output.accept(ModItems.SCOIATAEL_CC_ELVEN_SKIRMISHER.get());
+                                output.accept(ModItems.SCOIATAEL_CC_HAVEKAR_SMUGGLER.get());
+                                output.accept(ModItems.SCOIATAEL_CC_MAHAKAMAN_DEFENDER.get());
+                                output.accept(ModItems.SCOIATAEL_CC_TORUVIEL.get());
+
+                                // Scoia'tael Ranged cards
+                                output.accept(ModItems.SCOIATAEL_RANGED_DENNIS_CRANMER.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_DOL_BLATHANNA_ARCHER.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_EITHNE.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_HAVEKAR_HEALER.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_IDA_EMEAN.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_IORVETH.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_ISENGRIM.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_MILVA.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_RIORDAIN.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_SAESENTHESSIS.get());
+                                output.accept(ModItems.SCOIATAEL_RANGED_SCHIRRU.get());
+
+                                // Scoia'tael Siege cards
+                                output.accept(ModItems.SCOIATAEL_SIEGE_VRIHEDD_BRIGADE_RECRUIT.get());
+
+                                // Scoia'tael Agile cards
+                                output.accept(ModItems.SCOIATAEL_AGILE_BARCLAY_ELS.get());
+                                output.accept(ModItems.SCOIATAEL_AGILE_CIARAN.get());
+                                output.accept(ModItems.SCOIATAEL_AGILE_DOL_BLATHANNA_SCOUT.get());
+                                output.accept(ModItems.SCOIATAEL_AGILE_FILAVANDREL.get());
+                                output.accept(ModItems.SCOIATAEL_AGILE_VRIHEDD_BRIGADE_VETERAN.get());
+                                output.accept(ModItems.SCOIATAEL_AGILE_YAEVINN.get());
+
+
 
                                 // Gwent Guide Book
                                 output.accept(ModItems.GWENTGUIDE.get());

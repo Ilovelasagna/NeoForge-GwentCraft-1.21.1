@@ -142,7 +142,7 @@ public class GwentCollectionScreen
             int mouseX,
             int mouseY
     ) {
-        // Page number remains at the top, like Book and Quill.
+        // Page numbers.
         String pageText = "Page " + currentPage + " of 2";
 
         graphics.drawString(
@@ -162,7 +162,7 @@ public class GwentCollectionScreen
 
     private void renderCollectionPage(GuiGraphics graphics) {
 
-        // Front-page header
+        // Front-page header.
         String header = "A MIRACULOUS GUIDE TO GWENT";
 
         graphics.pose().pushPose();
@@ -187,7 +187,7 @@ public class GwentCollectionScreen
         graphics.pose().popPose();
 
         String introduction =
-                "The tome you hold in your hands, shall make use of magic most arcane to display the Gwent cards currently missing from your collection.";
+                "The tome you hold in your hands displays the Gwent cards currently missing from your collection.";
 
         // Draw the introductory passage.
         int textEndY = drawWrappedText(
@@ -203,12 +203,41 @@ public class GwentCollectionScreen
         // Faction collection list.
         int factionHeadingY = textEndY + 12;
 
+        // Monsters.
         drawFactionEntry(
                 graphics,
                 "Monsters",
                 getRemainingCards("monster_", "eredin_"),
                 18,
                 factionHeadingY + 5
+        );
+
+        // Northern Realms.
+        drawFactionEntry(
+                graphics,
+                "Northern Realms",
+                getRemainingCards(
+                        "northern_",
+                        "foltest_",
+                        "esterad",
+                        "john_natalis",
+                        "philippa_eilhart",
+                        "vernon_roche"
+                ),
+                18,
+                factionHeadingY + 20
+        );
+
+        // Scoia'tael.
+        drawFactionEntry(
+                graphics,
+                "Scoiatael",
+                getRemainingCards(
+                        "scoiatael_",
+                        "francesca_"
+                ),
+                18,
+                factionHeadingY + 35
         );
     }
 
@@ -239,7 +268,6 @@ public class GwentCollectionScreen
                 currentLine = new StringBuilder(word);
 
             } else {
-
                 currentLine = new StringBuilder(proposedLine);
             }
         }
@@ -283,7 +311,7 @@ public class GwentCollectionScreen
         graphics.drawString(
                 font,
                 count,
-                imageWidth - 65 - font.width(count),
+                imageWidth - 45 - font.width(count),
                 y,
                 0xFF70543A,
                 false

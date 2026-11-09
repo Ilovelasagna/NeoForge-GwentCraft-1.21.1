@@ -279,6 +279,254 @@ public class ModItems {
             ITEMS.register("neutral_torrential_rain",
                     () -> new GwentCardItem(new Item.Properties(), false));
 
+    //Northern Realms Leader Cards
+
+    public static final DeferredItem<GwentCardItem> FOLTEST_1 =
+            ITEMS.register("foltest_1",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> FOLTEST_2 =
+            ITEMS.register("foltest_2",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> FOLTEST_3 =
+            ITEMS.register("foltest_3",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> FOLTEST_4 =
+            ITEMS.register("foltest_4",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> FOLTEST_5 =
+            ITEMS.register("foltest_5",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> ESTERAD =
+            ITEMS.register("esterad",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> JOHN_NATALIS =
+            ITEMS.register("john_natalis",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> PHILIPPA_EILHART =
+            ITEMS.register("philippa_eilhart",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    public static final DeferredItem<GwentCardItem> VERNON_ROCHE =
+            ITEMS.register("vernon_roche",
+                    () -> new GwentCardItem(new Item.Properties(),false));
+
+    // Northern Realms Close Combat cards
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_BLUE_STRIPES_COMMANDO =
+            ITEMS.register("northern_cc_blue_stripes_commando",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_POOR_FUCKING_INFANTRY =
+            ITEMS.register("northern_cc_poor_fucking_infantry",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_PRINCE_STENNIS =
+            ITEMS.register("northern_cc_prince_stennis",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_REDANIAN_FOOT_SOLDIER =
+            ITEMS.register("northern_cc_redanian_foot_soldier",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_SIEGFRIED_OF_DENESLE =
+            ITEMS.register("northern_cc_siegfried_of_denesle",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_SIGISMUND_DIJKSTRA =
+            ITEMS.register("northern_cc_sigismund_dijkstra",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_VES =
+            ITEMS.register("northern_cc_ves",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_CC_YARPEN_ZIGRIN =
+            ITEMS.register("northern_cc_yarpen_zigrin",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // Northern Realms Ranged cards
+    public static final DeferredItem<GwentCardItem> NORTHERN_RANGED_CRINFRID_REAVERS_DRAGON_HUNTER =
+            ITEMS.register("northern_ranged_crinfrid_reavers_dragon_hunter",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_RANGED_DETHMOLD =
+            ITEMS.register("northern_ranged_dethmold",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_RANGED_KEIRA_METZ =
+            ITEMS.register("northern_ranged_keira_metz",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_RANGED_SABRINA_GLEVISSIG =
+            ITEMS.register("northern_ranged_sabrina_glevissig",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_RANGED_SHELDON_SKAGGS =
+            ITEMS.register("northern_ranged_sheldon_skaggs",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_RANGED_SILE_DE_TANSARVILLE =
+            ITEMS.register("northern_ranged_sile_de_tansarville",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // Northern Realms Siege cards
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_BALLISTA =
+            ITEMS.register("northern_siege_ballista",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_CATAPULT =
+            ITEMS.register("northern_siege_catapult",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_DUN_BANNER_MEDIC =
+            ITEMS.register("northern_siege_dun_banner_medic",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_KAEDWENI_SIEGE_EXPERT =
+            ITEMS.register("northern_siege_kaedweni_siege_expert",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_SIEGE_TOWER =
+            ITEMS.register("northern_siege_siege_tower",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_THALER =
+            ITEMS.register("northern_siege_thaler",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NORTHERN_SIEGE_TREBUCHET =
+            ITEMS.register("northern_siege_trebuchet",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // Scoia'tael Leader Cards
+    public static final DeferredItem<GwentCardItem> FRANCESCA_1 =
+            ITEMS.register("francesca_1",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> FRANCESCA_2 =
+            ITEMS.register("francesca_2",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> FRANCESCA_3 =
+            ITEMS.register("francesca_3",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> FRANCESCA_4 =
+            ITEMS.register("francesca_4",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> FRANCESCA_5 =
+            ITEMS.register("francesca_5",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // Scoia'tael Close Combat Cards
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_CC_DWARVEN_SKIRMISHER =
+            ITEMS.register("scoiatael_cc_dwarven_skirmisher",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_CC_ELVEN_SKIRMISHER =
+            ITEMS.register("scoiatael_cc_elven_skirmisher",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_CC_HAVEKAR_SMUGGLER =
+            ITEMS.register("scoiatael_cc_havekar_smuggler",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_CC_MAHAKAMAN_DEFENDER =
+            ITEMS.register("scoiatael_cc_mahakaman_defender",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_CC_TORUVIEL =
+            ITEMS.register("scoiatael_cc_toruviel",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // Scoia'tael Ranged Cards
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_DENNIS_CRANMER =
+            ITEMS.register("scoiatael_ranged_dennis_cranmer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_DOL_BLATHANNA_ARCHER =
+            ITEMS.register("scoiatael_ranged_dol_blathanna_archer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_EITHNE =
+            ITEMS.register("scoiatael_ranged_eithne",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_HAVEKAR_HEALER =
+            ITEMS.register("scoiatael_ranged_havekar_healer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_IDA_EMEAN =
+            ITEMS.register("scoiatael_ranged_ida_emean",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_IORVETH =
+            ITEMS.register("scoiatael_ranged_iorveth",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_ISENGRIM =
+            ITEMS.register("scoiatael_ranged_isengrim",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_MILVA =
+            ITEMS.register("scoiatael_ranged_milva",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_RIORDAIN =
+            ITEMS.register("scoiatael_ranged_riordain",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_SAESENTHESSIS =
+            ITEMS.register("scoiatael_ranged_saesenthessis",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_RANGED_SCHIRRU =
+            ITEMS.register("scoiatael_ranged_schirru",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // Scoia'tael Siege Cards
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_SIEGE_VRIHEDD_BRIGADE_RECRUIT =
+            ITEMS.register("scoiatael_siege_vrihedd_brigade_recruit",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // Scoia'tael Agile Cards
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_BARCLAY_ELS =
+            ITEMS.register("scoiatael_agile_barclay_els",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_CIARAN =
+            ITEMS.register("scoiatael_agile_ciaran",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_DOL_BLATHANNA_SCOUT =
+            ITEMS.register("scoiatael_agile_dol_blathanna_scout",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_FILAVANDREL =
+            ITEMS.register("scoiatael_agile_filavandrel",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_VRIHEDD_BRIGADE_VETERAN =
+            ITEMS.register("scoiatael_agile_vrihedd_brigade_veteran",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_YAEVINN =
+            ITEMS.register("scoiatael_agile_yaevinn",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
 
     // Gwent Guide Book
     public static final DeferredItem<GwentGuide> GWENTGUIDE =
