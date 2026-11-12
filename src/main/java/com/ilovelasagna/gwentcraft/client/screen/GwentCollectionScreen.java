@@ -163,7 +163,7 @@ public class GwentCollectionScreen
     private void renderCollectionPage(GuiGraphics graphics) {
 
         // Front-page header.
-        String header = "A MIRACULOUS GUIDE TO GWENT";
+        String header = "A Miraculous Guide to Gwent";
 
         graphics.pose().pushPose();
 
@@ -239,6 +239,27 @@ public class GwentCollectionScreen
                 18,
                 factionHeadingY + 35
         );
+
+        // Nilfgaardian Empire.
+        drawFactionEntry(
+                graphics,
+                "Nilfgaardian Empire",
+                getRemainingCards(
+                        "nilfgaard_",
+                        "emhyr_"
+                ),
+                18,
+                factionHeadingY + 50
+        );
+
+        // Skellige.
+        drawFactionEntry(
+                graphics,
+                "Skellige",
+                getRemainingCards("skellige_"),
+                18,
+                factionHeadingY + 65
+        );
     }
 
     private int drawWrappedText(
@@ -311,7 +332,7 @@ public class GwentCollectionScreen
         graphics.drawString(
                 font,
                 count,
-                imageWidth - 45 - font.width(count),
+                imageWidth - 23 - font.width(count),
                 y,
                 0xFF70543A,
                 false

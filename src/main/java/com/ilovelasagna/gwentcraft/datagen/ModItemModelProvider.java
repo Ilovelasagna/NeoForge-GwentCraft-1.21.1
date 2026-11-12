@@ -44,11 +44,9 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "monster_cc_draug",
                 "monster_cc_botchling",
                 "monster_cc_arachas",
-
                 "monster_cc_crone_1",
                 "monster_cc_crone_2",
                 "monster_cc_crone_3",
-
                 "monster_cc_vampire_1",
                 "monster_cc_vampire_2",
                 "monster_cc_vampire_3",
@@ -293,6 +291,140 @@ public class ModItemModelProvider extends ItemModelProvider {
         for (String cardId : scoiataelAgileCards) {
             generateFactionCard(cardId, "scoiatael_agile");
         }
+
+
+        // Nilfgaardian Empire Leader cards
+        String[] nilfgaardLeaderCards = {
+                "emhyr_1",
+                "emhyr_2",
+                "emhyr_3",
+                "emhyr_4",
+                "emhyr_5",
+                "nilfgaard_cc_letho_of_gulet",
+                "nilfgaard_cc_menno_coehoorn",
+                "nilfgaard_ranged_tibor_egbracht",
+                "nilfgaard_siege_zerrikanian_fire_scorpion",
+                "nilfgaard_siege_morvran_voorhis"
+        };
+        for (String cardId : nilfgaardLeaderCards) {
+            generateFactionCard(cardId, "nilf_leader");
+        }
+
+        // Nilfgaardian Empire Close Combat cards
+        String[] nilfgaardCloseCombatCards = {
+                "nilfgaard_cc_cahir_mawr_dyffryn_aep_ceallach",
+                "nilfgaard_cc_impera_brigade_guard",
+                "nilfgaard_cc_morteisen",
+                "nilfgaard_cc_nausicaa_cavalry_rider",
+                "nilfgaard_cc_rainfarn",
+                "nilfgaard_cc_shilard_fitz_oesterlen",
+                "nilfgaard_cc_stefan_skellen",
+                "nilfgaard_cc_vattier_de_rideaux",
+                "nilfgaard_cc_vreemde",
+                "nilfgaard_cc_young_emissary"
+        };
+        for (String cardId : nilfgaardCloseCombatCards) {
+            generateFactionCard(cardId, "nilf_cc");
+        }
+
+        // Nilfgaardian Empire Ranged cards
+        String[] nilfgaardRangedCards = {
+                "nilfgaard_ranged_albrich",
+                "nilfgaard_ranged_assire_var_anahid",
+                "nilfgaard_ranged_black_infantry_archer",
+                "nilfgaard_ranged_cynthia",
+                "nilfgaard_ranged_etolian_auxiliary_archers",
+                "nilfgaard_ranged_fringilla_vigo",
+                "nilfgaard_ranged_puttkammer",
+                "nilfgaard_ranged_renuald_aep_matsen",
+                "nilfgaard_ranged_sweers",
+                "nilfgaard_ranged_vanhemar"
+        };
+        for (String cardId : nilfgaardRangedCards) {
+            generateFactionCard(cardId, "nilf_ranged");
+        }
+
+        // Nilfgaardian Empire Siege cards
+        String[] nilfgaardSiegeCards = {
+                "nilfgaard_siege_rotten_mangonel",
+                "nilfgaard_siege_siege_engineer",
+                "nilfgaard_siege_siege_technician",
+
+        };
+        for (String cardId : nilfgaardSiegeCards) {
+            generateFactionCard(cardId, "nilf_siege");
+        }
+
+        // Skellige Leader cards
+        String[] skelligeLeaderCards = {
+                "skellige_leader_crach_an_craite",
+                "skellige_leader_king_bran"
+        };
+        for (String cardId : skelligeLeaderCards) {
+            generateFactionCard(cardId, "skellige_leader");
+        }
+
+// Skellige Close Combat cards
+        String[] skelligeCloseCombatCards = {
+                "skellige_cc_berserker",
+                "skellige_cc_birna_bran",
+                "skellige_cc_blueboy_lugos",
+                "skellige_cc_cerys",
+                "skellige_cc_clan_an_craite_warrior",
+                "skellige_cc_clan_drummond_shield_maiden",
+                "skellige_cc_clan_heymaey_skald",
+                "skellige_cc_clan_tordarroch_armorsmith",
+                "skellige_cc_donar_an_hindar",
+                "skellige_cc_madman_lugos",
+                "skellige_cc_svanrige",
+                "skellige_cc_udalryk",
+                "skellige_cc_kambi"
+        };
+        for (String cardId : skelligeCloseCombatCards) {
+            generateFactionCard(cardId, "skellige_cc");
+        }
+
+// Skellige Ranged cards
+        String[] skelligeRangedCards = {
+                "skellige_ranged_hjalmar",
+                "skellige_ranged_ermion",
+                "skellige_ranged_clan_brokvar_archer",
+                "skellige_ranged_clan_dimun_pirate",
+                "skellige_ranged_light_longship",
+                "skellige_ranged_young_berserker"
+        };
+        for (String cardId : skelligeRangedCards) {
+            generateFactionCard(cardId, "skellige_ranged");
+        }
+
+// Skellige Siege cards
+        String[] skelligeSiegeCards = {
+                "skellige_siege_draig_bon_dhu",
+                "skellige_siege_holger_blackhand",
+                "skellige_siege_war_longship",
+                "nilfgaard_siege_heavy_zerrikanian_fire_scorpion",
+
+        };
+        for (String cardId : skelligeSiegeCards) {
+            generateFactionCard(cardId, "skellige_siege");
+        }
+
+// Skellige Agile cards
+        String[] skelligeAgileCards = {
+                "skellige_agile_olaf"
+        };
+        for (String cardId : skelligeAgileCards) {
+            generateFactionCard(cardId, "skellige_cc");
+        }
+
+// Skellige Special cards
+        String[] skelligeSpecialCards = {
+                "skellige_special_mardroeme"
+        };
+        for (String cardId : skelligeSpecialCards) {
+            generateFactionCard(cardId, "skellige_mardroeme");
+        }
+
 
         // Gwent Guide Book
         basicItem(ModItems.GWENTGUIDE.get());

@@ -501,7 +501,6 @@ public class ModItems {
             ITEMS.register("scoiatael_siege_vrihedd_brigade_recruit",
                     () -> new GwentCardItem(new Item.Properties(), false));
 
-
     // Scoia'tael Agile Cards
     public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_BARCLAY_ELS =
             ITEMS.register("scoiatael_agile_barclay_els",
@@ -525,6 +524,258 @@ public class ModItems {
 
     public static final DeferredItem<GwentCardItem> SCOIATAEL_AGILE_YAEVINN =
             ITEMS.register("scoiatael_agile_yaevinn",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    //Nilfgaardian Leader Cards
+    public static final DeferredItem<GwentCardItem> EMHYR_1 =
+            ITEMS.register("emhyr_1",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> EMHYR_2 =
+            ITEMS.register("emhyr_2",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> EMHYR_3 =
+            ITEMS.register("emhyr_3",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> EMHYR_4 =
+            ITEMS.register("emhyr_4",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> EMHYR_5 =
+            ITEMS.register("emhyr_5",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // Nilfgaardian Empire Close Combat Cards
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_CAHIR_MAWR_DYFFRYN_AEP_CEALLACH =
+            ITEMS.register("nilfgaard_cc_cahir_mawr_dyffryn_aep_ceallach",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_IMPERA_BRIGADE_GUARD =
+            ITEMS.register("nilfgaard_cc_impera_brigade_guard",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_LETHO_OF_GULET =
+            ITEMS.register("nilfgaard_cc_letho_of_gulet",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_MENNO_COEHOORN =
+            ITEMS.register("nilfgaard_cc_menno_coehoorn",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_MORTEISEN =
+            ITEMS.register("nilfgaard_cc_morteisen",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_NAUSICAA_CAVALRY_RIDER =
+            ITEMS.register("nilfgaard_cc_nausicaa_cavalry_rider",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_RAINFARN =
+            ITEMS.register("nilfgaard_cc_rainfarn",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_SHILARD_FITZ_OESTERLEN =
+            ITEMS.register("nilfgaard_cc_shilard_fitz_oesterlen",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_STEFAN_SKELLEN =
+            ITEMS.register("nilfgaard_cc_stefan_skellen",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_VATTIER_DE_RIDEAUX =
+            ITEMS.register("nilfgaard_cc_vattier_de_rideaux",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_VREEMDE =
+            ITEMS.register("nilfgaard_cc_vreemde",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_CC_YOUNG_EMISSARY =
+            ITEMS.register("nilfgaard_cc_young_emissary",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // Nilfgaardian Empire Ranged Cards
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_ALBRICH =
+            ITEMS.register("nilfgaard_ranged_albrich",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_ASSIRE_VAR_ANAHID =
+            ITEMS.register("nilfgaard_ranged_assire_var_anahid",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_BLACK_INFANTRY_ARCHER =
+            ITEMS.register("nilfgaard_ranged_black_infantry_archer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_CYNTHIA =
+            ITEMS.register("nilfgaard_ranged_cynthia",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_ETOLIAN_AUXILIARY_ARCHERS =
+            ITEMS.register("nilfgaard_ranged_etolian_auxiliary_archers",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_FRINGILLA_VIGO =
+            ITEMS.register("nilfgaard_ranged_fringilla_vigo",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_PUTTKAMMER =
+            ITEMS.register("nilfgaard_ranged_puttkammer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_RENUALD_AEP_MATSEN =
+            ITEMS.register("nilfgaard_ranged_renuald_aep_matsen",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_SWEERS =
+            ITEMS.register("nilfgaard_ranged_sweers",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_TIBOR_EGBRACHT =
+            ITEMS.register("nilfgaard_ranged_tibor_egbracht",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_RANGED_VANHEMAR =
+            ITEMS.register("nilfgaard_ranged_vanhemar",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // Nilfgaardian Empire Siege Cards
+    public static final DeferredItem<GwentCardItem> NILFGAARD_SIEGE_HEAVY_ZERRIKANIAN_FIRE_SCORPION =
+            ITEMS.register("nilfgaard_siege_heavy_zerrikanian_fire_scorpion",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_SIEGE_MORVRAN_VOORHIS =
+            ITEMS.register("nilfgaard_siege_morvran_voorhis",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_SIEGE_ROTTEN_MANGONEL =
+            ITEMS.register("nilfgaard_siege_rotten_mangonel",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_SIEGE_SIEGE_ENGINEER =
+            ITEMS.register("nilfgaard_siege_siege_engineer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_SIEGE_SIEGE_TECHNICIAN =
+            ITEMS.register("nilfgaard_siege_siege_technician",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> NILFGAARD_SIEGE_ZERRIKANIAN_FIRE_SCORPION =
+            ITEMS.register("nilfgaard_siege_zerrikanian_fire_scorpion",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+
+    // SKELLIGE LEADER CARDS
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CRACH_AN_CRAITE =
+            ITEMS.register("skellige_leader_crach_an_craite",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_KING_BRAN =
+            ITEMS.register("skellige_leader_king_bran",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // SKELLIGE CLOSE COMBAT CARDS
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_BERSERKER =
+            ITEMS.register("skellige_cc_berserker",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_BIRNA_BRAN =
+            ITEMS.register("skellige_cc_birna_bran",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_BLUEBOY_LUGOS =
+            ITEMS.register("skellige_cc_blueboy_lugos",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_CERYS =
+            ITEMS.register("skellige_cc_cerys",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_CLAN_AN_CRAITE_WARRIOR =
+            ITEMS.register("skellige_cc_clan_an_craite_warrior",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_CLAN_DRUMMOND_SHIELD_MAIDEN =
+            ITEMS.register("skellige_cc_clan_drummond_shield_maiden",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_CLAN_HEYMAEY_SKALD =
+            ITEMS.register("skellige_cc_clan_heymaey_skald",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_CLAN_TORDARROCH_ARMORSMITH =
+            ITEMS.register("skellige_cc_clan_tordarroch_armorsmith",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_DONAR_AN_HINDAR =
+            ITEMS.register("skellige_cc_donar_an_hindar",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_MADMAN_LUGOS =
+            ITEMS.register("skellige_cc_madman_lugos",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_SVANRIGE =
+            ITEMS.register("skellige_cc_svanrige",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_UDALRYK =
+            ITEMS.register("skellige_cc_udalryk",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_CC_KAMBI =
+            ITEMS.register("skellige_cc_kambi",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // SKELLIGE RANGED CARDS
+    public static final DeferredItem<GwentCardItem> SKELLIGE_RANGED_CLAN_BROKVAR_ARCHER =
+            ITEMS.register("skellige_ranged_clan_brokvar_archer",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_RANGED_CLAN_DIMUN_PIRATE =
+            ITEMS.register("skellige_ranged_clan_dimun_pirate",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_RANGED_ERMION =
+            ITEMS.register("skellige_ranged_ermion",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_RANGED_HJALMAR =
+            ITEMS.register("skellige_ranged_hjalmar",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_RANGED_LIGHT_LONGSHIP =
+            ITEMS.register("skellige_ranged_light_longship",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_RANGED_YOUNG_BERSERKER =
+            ITEMS.register("skellige_ranged_young_berserker",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // SKELLIGE SIEGE CARDS
+    public static final DeferredItem<GwentCardItem> SKELLIGE_SIEGE_DRAIG_BON_DHU =
+            ITEMS.register("skellige_siege_draig_bon_dhu",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_SIEGE_HOLGER_BLACKHAND =
+            ITEMS.register("skellige_siege_holger_blackhand",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    public static final DeferredItem<GwentCardItem> SKELLIGE_SIEGE_WAR_LONGSHIP =
+            ITEMS.register("skellige_siege_war_longship",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // SKELLIGE AGILE CARDS
+    public static final DeferredItem<GwentCardItem> SKELLIGE_AGILE_OLAF =
+            ITEMS.register("skellige_agile_olaf",
+                    () -> new GwentCardItem(new Item.Properties(), false));
+
+    // SKELLIGE SPECIAL CARDS
+    public static final DeferredItem<GwentCardItem> SKELLIGE_SPECIAL_MARDROEME =
+            ITEMS.register("skellige_special_mardroeme",
                     () -> new GwentCardItem(new Item.Properties(), false));
 
 

@@ -140,6 +140,76 @@
   "item.gwentcraft.scoiatael_agile_vrihedd_brigade_veteran": "Vrihedd Brigade Veteran",
   "item.gwentcraft.scoiatael_agile_yaevinn": "Yaevinn",
 
+  "item.gwentcraft.emhyr_1": "Emhyr var Emreis: His Imperial Majesty",
+  "item.gwentcraft.emhyr_2": "Emhyr var Emreis: Emperor of Nilfgaard",
+  "item.gwentcraft.emhyr_3": "Emhyr var Emreis: The White Flame",
+  "item.gwentcraft.emhyr_4": "Emhyr var Emreis: The Relentless",
+  "item.gwentcraft.emhyr_5": "Emhyr var Emreis: Invader of the North",
+
+  "item.gwentcraft.nilfgaard_cc_cahir_mawr_dyffryn_aep_ceallach": "Cahir Mawr Dyffryn aep Ceallach",
+  "item.gwentcraft.nilfgaard_cc_impera_brigade_guard": "Impera Brigade Guard",
+  "item.gwentcraft.nilfgaard_cc_letho_of_gulet": "Letho of Gulet",
+  "item.gwentcraft.nilfgaard_cc_menno_coehoorn": "Menno Coehoorn",
+  "item.gwentcraft.nilfgaard_cc_morteisen": "Morteisen",
+  "item.gwentcraft.nilfgaard_cc_nausicaa_cavalry_rider": "Nausicaa Cavalry Rider",
+  "item.gwentcraft.nilfgaard_cc_rainfarn": "Rainfarn",
+  "item.gwentcraft.nilfgaard_cc_shilard_fitz_oesterlen": "Shilard Fitz-Oesterlen",
+  "item.gwentcraft.nilfgaard_cc_stefan_skellen": "Stefan Skellen",
+  "item.gwentcraft.nilfgaard_cc_vattier_de_rideaux": "Vattier de Rideaux",
+  "item.gwentcraft.nilfgaard_cc_vreemde": "Vreemde",
+  "item.gwentcraft.nilfgaard_cc_young_emissary": "Young Emissary",
+
+  "item.gwentcraft.nilfgaard_ranged_albrich": "Albrich",
+  "item.gwentcraft.nilfgaard_ranged_assire_var_anahid": "Assire var Anahid",
+  "item.gwentcraft.nilfgaard_ranged_black_infantry_archer": "Black Infantry Archer",
+  "item.gwentcraft.nilfgaard_ranged_cynthia": "Cynthia",
+  "item.gwentcraft.nilfgaard_ranged_etolian_auxiliary_archers": "Etolian Auxiliary Archers",
+  "item.gwentcraft.nilfgaard_ranged_fringilla_vigo": "Fringilla Vigo",
+  "item.gwentcraft.nilfgaard_ranged_puttkammer": "Puttkammer",
+  "item.gwentcraft.nilfgaard_ranged_renuald_aep_matsen": "Renuald aep Matsen",
+  "item.gwentcraft.nilfgaard_ranged_sweers": "Sweers",
+  "item.gwentcraft.nilfgaard_ranged_tibor_egbracht": "Tibor Eggebracht",
+  "item.gwentcraft.nilfgaard_ranged_vanhemar": "Vanhemar",
+
+  "item.gwentcraft.nilfgaard_siege_heavy_zerrikanian_fire_scorpion": "Heavy Zerrikanian Fire Scorpion",
+  "item.gwentcraft.nilfgaard_siege_morvran_voorhis": "Morvran Voorhis",
+  "item.gwentcraft.nilfgaard_siege_rotten_mangonel": "Rotten Mangonel",
+  "item.gwentcraft.nilfgaard_siege_siege_engineer": "Siege Engineer",
+  "item.gwentcraft.nilfgaard_siege_siege_technician": "Siege Technician",
+  "item.gwentcraft.nilfgaard_siege_zerrikanian_fire_scorpion": "Zerrikanian Fire Scorpion",
+
+  "item.gwentcraft.skellige_leader_crach_an_craite": "Crach an Craite",
+  "item.gwentcraft.skellige_leader_king_bran": "King Bran",
+
+  "item.gwentcraft.skellige_cc_berserker": "Berserker",
+  "item.gwentcraft.skellige_cc_birna_bran": "Birna Bran",
+  "item.gwentcraft.skellige_cc_blueboy_lugos": "Blueboy Lugos",
+  "item.gwentcraft.skellige_cc_cerys": "Cerys",
+  "item.gwentcraft.skellige_cc_clan_an_craite_warrior": "Clan an Craite Warrior",
+  "item.gwentcraft.skellige_cc_clan_drummond_shield_maiden": "Clan Drummond Shield Maiden",
+  "item.gwentcraft.skellige_cc_clan_heymaey_skald": "Clan Heymaey Skald",
+  "item.gwentcraft.skellige_cc_clan_tordarroch_armorsmith": "Clan Tordarroch Armorsmith",
+  "item.gwentcraft.skellige_cc_donar_an_hindar": "Donar an Hindar",
+  "item.gwentcraft.skellige_cc_madman_lugos": "Madman Lugos",
+  "item.gwentcraft.skellige_cc_svanrige": "Svanrige",
+  "item.gwentcraft.skellige_cc_udalryk": "Udalryk",
+  "item.gwentcraft.skellige_cc_kambi": "Kambi",
+
+  "item.gwentcraft.skellige_ranged_hjalmar": "Hjalmar",
+  "item.gwentcraft.skellige_ranged_ermion": "Ermion",
+  "item.gwentcraft.skellige_ranged_clan_brokvar_archer": "Clan Brokvar Archer",
+  "item.gwentcraft.skellige_ranged_clan_dimun_pirate": "Clan Dimun Pirate",
+  "item.gwentcraft.skellige_ranged_light_longship": "Light Longship",
+  "item.gwentcraft.skellige_ranged_young_berserker": "Young Berserker",
+
+  "item.gwentcraft.skellige_siege_draig_bon_dhu": "Draig Bon-Dhu",
+  "item.gwentcraft.skellige_siege_holger_blackhand": "Holger Blackhand",
+  "item.gwentcraft.skellige_siege_war_longship": "War Longship",
+
+  "item.gwentcraft.skellige_agile_olaf": "Olaf",
+
+  "item.gwentcraft.skellige_special_mardroeme": "Mardroeme",
+
 
 
   "item.gwentcraft.gwentguide": "A Miraculous Guide to Gwent",
@@ -151,6 +221,14 @@
   "creativetab.gwentcraft.gwent_items": "GwentCraft",
 
   "tooltip.gwentcraft.keg_fluid": "Stored: %s — %d / %d mB",
-  "tooltip.gwentcraft.keg_empty": "Stored: Empty"
+  "tooltip.gwentcraft.keg_empty": "Stored: Empty",
+  "config.jade.plugin_gwentcraft.keg_fluid": "Show Keg Fluid",
+
+  "sounds.gwentcraft.job_block_fall": "Job Block falls",
+  "sounds.gwentcraft.job_block_step": "Job Block footsteps",
+  "sounds.gwentcraft.job_block_hit": "Job Block hit",
+  "sounds.gwentcraft.keg_use": "Keg used",
+  "sounds.gwentcraft.job_block_break": "Job Block broken",
+  "sounds.gwentcraft.job_block_place": "Job Block placed"
 
 }
